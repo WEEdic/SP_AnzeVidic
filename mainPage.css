@@ -1,0 +1,42 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	background-color: #0D87AB;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+#logo{
+	width: 26%;
+	margin-left: 3%;
+}
+
+#logo img{
+	width: 20%;
+}
+
+.search{
+	width: 30%;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -4%;
+}
+
+.search img{
+	width: 6%;
+}
+
+#tekst{
+	width: 70%;
+	padding-top: 1%;
+}
