@@ -7,13 +7,42 @@
 </head>
 
 <body>
-	<div class = "header">
-		<div id = "logo">
-			<img src = "microblog.jpg"></img>
-		</div>
-		<div class = "search">
-		<input type="text" id = "tekst">
-		<img src = "search.png" id = "lupa"></img>
+	<!---HEADER--->
+	<header>
+		<table>
+			<tr>
+				<td id = "home">
+					<a href = "mainPage.html"><img src = "microblog.jpg" id = "logo"></img></a>
+				</td>
+				<td id = "search">
+					<input type="text" id = "tekst" placeholder = "Search">
+				</td>
+				<td>
+					<img src = "search.png" id = "lupa"></img>
+				</td>
+				<td id = "ime">
+					<p id = "username"> Username User </p>
+				</td>
+				<td id = "slika">
+					<a href = "#"><img src = "profilePicture.jpg" id = "profilka"></img></a>
+				</td>
+			</tr>
+		</table>
+	</header>
+	
+	<!---CENTER--->
+	<div class = "center">
+		<textarea rows="2" cols="50">
+		At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+		</textarea>
+	</div>
+	
+	<!---LEVI DEL--->
+	<div class = "levo">
+	</div>
+	
+	<!---DESNI DEL--->
+	<div class = "desno">
 	</div>
 </body>
 </html>

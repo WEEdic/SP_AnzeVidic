@@ -1,42 +1,76 @@
-html{
-	min-height: 100%;
-}
 
-body{
-	min-height: 100%;
-	background-size: cover;
-	background-position: center;
-}
+/*========================================== HEADER ========================================*/
 
-.header{
-	position: relative;
+header{
 	width: 100%;
 	background-color: #0D87AB;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
+	position:fixed;
+	top:0;
+	left:0;
 }
+
+/*	LOGO	*/
 
 #logo{
-	width: 26%;
-	margin-left: 3%;
+	width: 20%;
+	margin-left: 10%;
+	position: relative;
 }
 
-#logo img{
+#home{
 	width: 20%;
 }
 
-.search{
-	width: 30%;
-	position: absolute;
-	margin-left: 40%;
-	margin-top: -4%;
-}
+/*	SEARCH	*/
 
-.search img{
-	width: 6%;
+#search{
+	width: 25%;
 }
 
 #tekst{
-	width: 70%;
-	padding-top: 1%;
+	margin-left: 18%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	padding-left: 1%;
+	width: 80%;
 }
+
+#lupa{
+	position:relative;
+	width: 5%;
+}
+
+/*	USER	*/
+
+#ime{
+	width: 15%;
+}
+
+#username{
+	margin-left: 40%;
+	font-size: 85%;
+	color: white;
+	font-family: "Arial";
+}
+
+#username:hover{
+	background-color: #0D87AD;
+}
+
+#slika{
+	width: 10%;
+}
+
+#profilka{
+	width: 40%;
+}
+
+/*========================================== CENTER ========================================*/
+.center{
+	margin-top: 5%;
+	border-style: solid;
+    border-width: 5px;
+}
+/*========================================== LEVO ========================================*/
+
+/*========================================== DESNO ========================================*/
